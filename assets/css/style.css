@@ -1,0 +1,289 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #e8e8e8;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  height: auto;
+}
+
+.navbar-header {
+  height: 80px;
+  background-color: teal;
+  display: block;
+  text-align: center;
+}
+
+#headerName {
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+  padding: 20px 20px;
+  height: 80px;
+  display: inline-block;
+  width: auto;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#navbar {
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+}
+
+#navLinks {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.nav>li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+#about {
+  color: solid lightgrey;
+}
+
+/* #about:hover {
+  color: purple;
+  text-decoration: none;
+} */
+
+#portfolio {
+  color: solid lightgrey;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* #portfolio:hover {
+  color: purple;
+  text-decoration: none;
+} */
+
+#sidebar {
+  color: solid lightgrey;
+  margin-bottom: 80px;
+  border: 1px solid lightgrey;
+  float: right;
+}
+/*
+#contact:hover {
+  color: pink;
+  text-decoration: none;
+} */
+
+.bio {
+  background-color: white;
+  margin: 30px 10px 180px 50px;
+  padding: 20px 10px;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  width: 60%;
+  height: auto;
+  display: inline-block;
+}
+
+#wholeEnchilada {
+  margin-left: 0;
+  padding: 15px 20px;
+  background-color: white;
+  font-weight: bold;
+  border-top: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  color: teal;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#aboutMeContent {
+  background-color: white;
+  padding: 10px 10px;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#aboutMe {
+  font-size: 32px;
+  background-color: white;
+  color: teal;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid lightgrey;
+}
+
+#me {
+  padding: 10px;
+  float: left;
+}
+
+#p {
+  padding: 10px 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#p::first-letter {
+  font-size: 26px;
+  font-family: cursive;
+}
+
+#about-content {
+  padding: 10px;
+  line-height: 1.8;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contact-fields {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px 40px;
+  border: 1px solid lightgrey;
+}
+
+#input-group {
+  color: teal;
+  font-size: 32px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+}
+
+input[type="text"]{
+  width: 100%;
+}
+
+input[type="text"]:focus{
+
+  border: 3px solid teal;
+}
+
+#userMessage:focus{
+  border: 3px solid teal;
+}
+
+.user-contact {
+  border-top: 1px solid lightgrey;
+  margin-top: 15px;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.links {
+  border-top: 1px solid lightgrey;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#submit {
+  padding: 8px 10px;
+}
+
+#submit:hover {
+  background-color: teal;
+  color: white;
+}
+
+.portfolioLinks {
+  display: inline-block;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+}
+
+#wrapIt {
+  margin-bottom: 20px;
+}
+
+.pics {
+  padding: 20px;
+}
+
+#connect {
+  text-align: center;
+  font-size: 24px;
+  margin: 15px 0;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+  color: teal;
+}
+
+#github {
+  width: 50px;
+  height: 50px;
+  margin: 3px;;
+}
+
+#linkedin {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+
+#stackO {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: gray;
+  border-top: solid 4px teal;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  height: 60px;
+  padding-top: 18px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  #navLinks {
+    margin-right: 50px;
+  }
+
+  .navbar-header {
+      margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .contact-fields {
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 991px) {
+  #sidebar {
+    margin-right: 0;
+  }
+
+  #wrapIt {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #sidebar {
+    margin-right: 40px;
+  }
+
+  #wrapIt {
+    margin-bottom: 80px;
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrapped Bio!</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+
+    <div class = "container-fluid">
+      <nav class = "navbar navbar-default" id = "navbar">
+        <div class = "navbar-header">
+          <a id = "headerName">Diana Schiele</a>
+        </div>
+        <!-- <div class="container"> -->
+          <ul class = "nav navbar-right" id = "navLinks">
+            <li id = "about"><a href = "index.html">About</a></li>
+            <li id = "portfolio"><a href = "portfolio.html">Portfolio</a></li>
+            <li id = "contact"><a href = "contact.html">Contact</a></li>
+          </ul>
+        <!-- </div> -->
+      </div>
+    </nav>
+    <main class = "container" id= "info">
+      <section class ="contact-fields col-lg-6 col-md-6 col-sm-12 col-md-offset-1">
+        <div id = "input-group">Contact</div>
+        <form class = "user-contact" action="mailto:dianaschiele@gmail.com">
+          <div>Name
+            <input type="text" name="name" id="userName" placeholder="ex. Bubbles the sea-monkey">
+          </div>
+          <br>
+          <div>Email
+            <input type="text" name="email" id="userEmail" placeholder="ex. undaDc@pacificOcean.com">
+          </div>
+          <br>
+          <div>Message
+            <textarea name="text" id="userMessage" placeholder="What did the Buddhist ask the hot dog vendor?" style="width:100%; height:150px"></textarea>
+          </div>
+          <br>
+          <input type="submit" value="Submit" id="submit">
+        </form>
+      </section>
+      <aside class = "panel panel-default col-lg-4 col-md-4 col-sm-12 col-xs-12" id = "sidebar">
+        <div class = "row">
+          <div id = "connect">Connect With Me!</div>
+        </div>
+        <ul class="links">
+          <a href="https://github.com/LuvsWubs"><img id = "github" src = "./assets/images/github.svg"></a>
+          <a href="https://www.linkedin.com/in/diana-schiele-58809115/"><img id = "linkedin" src = "./assets/images/linkedin.svg"></a>
+          <a href="https://stackoverflow.com/users/7868501/diana-schiele"><img id = "stackO" src = "./assets/images/stackoverflow.svg"></a>
+        </ul>
+      </aside>
+    </main>
+      <footer><span class = "glyphicon glyphicon-copyright-mark"></span> Diana Schiele 2018</footer>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>
